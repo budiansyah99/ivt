@@ -17,10 +17,12 @@ $res = mysqli_query($conn, 'SELECT * FROM inventory');
 while ($row = mysqli_fetch_assoc($res)) {
 var_dump($row);
 }
-//Close the connection
-mysqli_close($conn);
+
 <br><br>
   Link AJa
   <br>
   <a href="https://lab-budi.azurewebsites.net/edit.php"> Edit</a>
+//Close the connection
+mysqli_close($conn);
+
 ?>
