@@ -22,9 +22,11 @@ var_dump($row);
   //printf("
   //Link AJa
   //<br>
- // <a href="https://lab-budi.azurewebsites.net/edit.php"> Edit</a>";
+ // 
+echo "<table align=center><tr><th>No</th><th>Nama</th><th>Alamat</th></tr>";
 //Close the connection
-echo" Tes aja";
+  ?>
+  
 mysqli_close($conn);
 
 ?>
