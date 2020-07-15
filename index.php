@@ -23,7 +23,7 @@ var_dump($row);
   //Link AJa
   //<br>
  // 
-echo "<table align=center><tr><th>No</th><th>Nama</th><th>Alamat</th></tr>";
+echo "<table align=center><tr><th>No</th><th>Nama</th><th>Alamat</th></tr></table>";
 //Close the connection
   ?>
   
