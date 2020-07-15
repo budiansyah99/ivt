@@ -25,7 +25,7 @@ var_dump($row);
  // 
 echo "<table align=center><tr><th><a href="https://lab-budi.azurewebsites.net/config.php">No</a></th><th>Nama</th><th>Alamat</th></tr></table>";
 //Close the connection
-  ?>
+ // ?>
   
 mysqli_close($conn);
 
