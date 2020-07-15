@@ -19,4 +19,8 @@ var_dump($row);
 }
 //Close the connection
 mysqli_close($conn);
+<br><br>
+  Link AJa
+  <br>
+  <a href="https://lab-budi.azurewebsites.net/edit.php"> Edit</a>
 ?>
