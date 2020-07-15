@@ -19,9 +19,10 @@ var_dump($row);
 }
 
 <br><br>
+  printf("
   Link AJa
   <br>
-  <a href="https://lab-budi.azurewebsites.net/edit.php"> Edit</a>
+  <a href="https://lab-budi.azurewebsites.net/edit.php"> Edit</a>";
 //Close the connection
 mysqli_close($conn);
 
