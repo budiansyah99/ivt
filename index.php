@@ -18,12 +18,13 @@ while ($row = mysqli_fetch_assoc($res)) {
 var_dump($row);
 }
 
-<br><br>
-  printf("
-  Link AJa
-  <br>
-  <a href="https://lab-budi.azurewebsites.net/edit.php"> Edit</a>";
+//<br><br>
+  //printf("
+  //Link AJa
+  //<br>
+ // <a href="https://lab-budi.azurewebsites.net/edit.php"> Edit</a>";
 //Close the connection
+echo" Tes aja";
 mysqli_close($conn);
 
 ?>
